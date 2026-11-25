@@ -1,0 +1,12 @@
+{
+  "id": "de-longhi-dedica-ec685-m",
+  "version": 1,
+  "name": "Dedica EC685.M",
+  "brand": "De'Longhi",
+  "type": "brewer",
+  "category": "espresso-machine",
+  "variants": [
+    "51mm"
+  ],
+  "defaultMethod": "espresso"
+}
