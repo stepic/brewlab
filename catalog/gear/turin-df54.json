@@ -1,0 +1,66 @@
+{
+  "id": "turin-df54",
+  "version": 1,
+  "name": "Turin DF54",
+  "brand": "Turin",
+  "type": "grinder",
+  "category": "electric-grinder",
+  "details": "Single-dose, stepless adjustment, 150W motor, anti-static plasma ioniser, 58mm dosing cup",
+  "units": "clicks",
+  "burrs": "54mm stainless steel flat burrs",
+  "grindRanges": {
+    "scale": "Numbered stepless dial, 0 to 90",
+    "min": 0,
+    "max": 90,
+    "step": 1,
+    "dialDivisor": 1,
+    "methods": {
+      "turkish": {
+        "low": 0,
+        "high": 12
+      },
+      "espresso": {
+        "low": 8,
+        "high": 30
+      },
+      "moka": {
+        "low": 29,
+        "high": 62
+      },
+      "aeropress": {
+        "low": 24,
+        "high": 90
+      },
+      "rapid": {
+        "low": 50,
+        "high": 57
+      },
+      "pourover": {
+        "low": 34,
+        "high": 67
+      },
+      "batch": {
+        "low": 34,
+        "high": 67
+      },
+      "immersion": {
+        "low": 67,
+        "high": 90
+      },
+      "coldbrew": {
+        "low": 79,
+        "high": 90
+      }
+    }
+  },
+  "rangeInfo": {
+    "confidence": "community",
+    "source": "https://honestcoffeeguide.com/turin-df54-grind-settings/",
+    "note": "Reference values from a community guide, not the manufacturer. To verify against my own dial calibration.",
+    "estimated": [
+      "rapid",
+      "batch"
+    ],
+    "estimateNote": "Estimated by extrapolating the cited ranges, not from the source: Rapid Brewer: from the middle of the AeroPress range to the middle of the pour-over range; drip coffee maker: the pour-over range. Dial in from there."
+  }
+}
